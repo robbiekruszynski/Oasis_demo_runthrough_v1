@@ -3,7 +3,7 @@ import { HardhatUserConfig} from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
 
-const TEST HDWALLET = {
+const TEST_HDWALLET = {
     mnemonic: "test",
     paath: "m/44'/60'/0'/0",
     initalIndex: 0,
