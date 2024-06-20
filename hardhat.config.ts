@@ -4,7 +4,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import './tasks/deploy';
 
 const TEST_HDWALLET = {
-    mnemonic: "test",
+    mnemonic: "test test test test test test test test test test test test",
     paath: "m/44'/60'/0'/0",
     initalIndex: 0,
     count: 20,
@@ -26,6 +26,9 @@ const config: HardhatUserConfig = {
     networks: {
     hardhat: {
         chainId: 1337,
+    },
+    hardhat_local:{
+        url: 'http://127.0.0.1:8545/',
     },
     'sapphire' : {
         url:'https://sapphire.oasis.io',
